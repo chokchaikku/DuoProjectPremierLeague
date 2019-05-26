@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScoreInsert">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <EditText
+                android:id="@+id/post_rank"
+                android:layout_marginTop="10dp"
+                android:hint="อันดับ"
+                android:layout_gravity="center"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/post_club"
+                android:layout_marginTop="10dp"
+                android:hint="ทีม"
+                android:layout_gravity="center"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/post_fight"
+                android:layout_marginTop="10dp"
+                android:hint="เเข่ง"
+                android:layout_gravity="center"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/post_win"
+                android:layout_marginTop="10dp"
+                android:hint="ชนะ"
+                android:layout_gravity="center"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/post_ever"
+                android:layout_marginTop="10dp"
+                android:hint="เสมอ"
+                android:layout_gravity="center"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/post_lose"
+                android:layout_marginTop="10dp"
+                android:hint="เเเพ้"
+                android:layout_gravity="center"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/post_total"
+                android:layout_marginTop="10dp"
+                android:hint="คะเเนน"
+                android:layout_gravity="center"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content" />
+
+
+            <Button
+                android:id="@+id/btn_postScore"
+                android:textSize="25sp"
+
+                android:padding="20dp"
+                android:layout_gravity="center"
+                android:text="POST"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

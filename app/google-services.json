@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "280054577923",
+    "firebase_url": "https://duoproject-8e5e2.firebaseio.com",
+    "project_id": "duoproject-8e5e2",
+    "storage_bucket": "duoproject-8e5e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280054577923:android:37fc62bdbac465eb",
+        "android_client_info": {
+          "package_name": "com.pantip.dev.duoproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280054577923-ngmev41tg22npgc2rabd93ffts6nqt4t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWKwW-WOpW24c1gCC3s88xMnl3AVeybUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280054577923-ngmev41tg22npgc2rabd93ffts6nqt4t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

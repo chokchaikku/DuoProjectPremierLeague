@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+    <TextView
+        android:textColor="#3C5A99"
+        android:textStyle=""
+        android:textSize="50sp"
+        android:text="FootBallClub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edit_email"
+        android:hint="email"
+        android:layout_marginTop="10dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edit_pass"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_login"
+        android:text="Login"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:background="#3C5A99"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
